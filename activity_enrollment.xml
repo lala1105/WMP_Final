@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Subjects to Enroll"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <CheckBox
+            android:id="@+id/cbSubject1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Vision (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/cbSubject2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deep Learning (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/cbSubject3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Robotics (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/cbSubject4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NLP (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/cbSubject5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NLUG (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/cbSubject6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intelligent Robotic (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/cbSubject7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image Processing and Recognition (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/cbSubject8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Programming (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/cbSubject9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Embedded System (3 Credits)" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>
